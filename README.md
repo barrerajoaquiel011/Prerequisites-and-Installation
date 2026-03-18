@@ -74,3 +74,4 @@ Virtual Machines
 1. After the VM finishes deploying, open the Virtual Machines page.</p>
 2. Click the virtual machine named:
 osticket-vm
+Click Connect → RDP.
