@@ -83,7 +83,7 @@ osticket-vm </p>
 3. Copy the Public IP Address of the Virtual Machine. </p>
 <img width="1821" height="957" alt="Screenshot 2026-03-21 195119" src="https://github.com/user-attachments/assets/8231dcbf-f458-4080-a2ba-46653ba087ef" />
 
-4. Click Start, the windows sign in the task bar and search "Remote Desktop Connection" </p>
+4. Click Start Menu, the windows sign in the task bar and search "Remote Desktop Connection" </p>
 <img width="1919" height="1079" alt="Screenshot 2026-03-21 200435" src="https://github.com/user-attachments/assets/f64b6493-0d5f-492c-aa81-bc6ab1e503df" />
 
 5. Click [OPEN] </p>
@@ -104,3 +104,14 @@ Password: osTicketPassword$$ </p>
 <img width="1635" height="1021" alt="Screenshot 2026-03-21 203140" src="https://github.com/user-attachments/assets/10973ad5-765b-474f-882a-ea67d946bdab" />
 
 <h2>Step 3 — Download the osTicket Installation Files</h2>
+Inside the virtual machine:
+
+1. Open a web browser.
+2. Download the file:
+3. osTicket-Installation-Files.zip
+4. Save the file to the Desktop.
+5. Right-click the ZIP file.
+6. Click Extract All.
+7. Extract the folder to the Desktop.
+After extraction, the folder should be named:
+osTicket-Installation-Files
