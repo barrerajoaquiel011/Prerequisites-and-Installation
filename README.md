@@ -70,8 +70,28 @@ Virtual Machines
 9. Click Review + Create, then click Create.</p>
 <img width="1827" height="929" alt="Screenshot 2026-03-18 111641" src="https://github.com/user-attachments/assets/119a5697-6d8b-4a2f-8c73-3aec097b0293" />
 <img width="1822" height="943" alt="Screenshot 2026-03-18 111954" src="https://github.com/user-attachments/assets/b165f493-9385-4273-bc9a-8bb8c9749459" />
+
 <h2>Step 2 — Connect to the Virtual Machine Using Remote Desktop</h2>
+
 1. After the VM finishes deploying, open the Virtual Machines page.</p>
+<img width="1821" height="947" alt="Screenshot 2026-03-21 194259" src="https://github.com/user-attachments/assets/5efedc53-b0db-4f3d-8005-2da5b517a1bd" />
+
 2. Click the virtual machine named:
-osticket-vm
-Click Connect → RDP.
+osticket-vm </p>
+<img width="1826" height="954" alt="Screenshot 2026-03-21 194324" src="https://github.com/user-attachments/assets/69182024-aeb8-4046-acca-bedfbe89d688" />
+
+3. Copy the Public IP Address of the Virtual Machine. </p>
+<img width="1821" height="957" alt="Screenshot 2026-03-21 195119" src="https://github.com/user-attachments/assets/8231dcbf-f458-4080-a2ba-46653ba087ef" />
+
+4. Click Start, the windows sign in the task bar and search "Remote Desktop Connection" </p>
+<img width="1919" height="1079" alt="Screenshot 2026-03-21 200435" src="https://github.com/user-attachments/assets/f64b6493-0d5f-492c-aa81-bc6ab1e503df" />
+
+5. Click [OPEN] </p>
+<img width="647" height="372" alt="Screenshot 2026-03-21 200556" src="https://github.com/user-attachments/assets/faeb8e2a-650f-4a80-b4d8-919275fba64b" />
+
+6. Paste the Public IP Address from the Azure VM:<br />
+Computer: 172.184.243.44 </p>
+<img width="615" height="374" alt="Screenshot 2026-03-21 201022" src="https://github.com/user-attachments/assets/8a12b8ab-25f6-4b24-add0-acef131f92df" />
+
+7. Click Connect </p>
+<img width="609" height="375" alt="Screenshot 2026-03-21 201043" src="https://github.com/user-attachments/assets/5cfb32cf-89a5-4032-9480-a70eb446677f" />
