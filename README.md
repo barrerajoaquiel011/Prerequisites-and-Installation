@@ -95,3 +95,12 @@ Computer: 172.184.243.44 </p>
 
 7. Click Connect </p>
 <img width="609" height="375" alt="Screenshot 2026-03-21 201043" src="https://github.com/user-attachments/assets/5cfb32cf-89a5-4032-9480-a70eb446677f" />
+
+8. Enter the login credentials: </p>
+Username: labuser<br />
+Password: osTicketPassword$$ </p>
+
+9. Click OK to log into the Windows virtual machine. </p>
+<img width="1635" height="1021" alt="Screenshot 2026-03-21 203140" src="https://github.com/user-attachments/assets/10973ad5-765b-474f-882a-ea67d946bdab" />
+
+<h2>Step 3 — Download the osTicket Installation Files</h2>
