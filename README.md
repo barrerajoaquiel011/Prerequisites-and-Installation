@@ -105,19 +105,26 @@ Password: osTicketPassword$$ </p>
 
 <h2>Step 3 — Download the osTicket Installation Files</h2>
 Inside the virtual machine: </p>
+
 1. Open a web browser and access the URL containing the osTicket installation files (.zip). </p>
 <img width="1818" height="1000" alt="Screenshot 2026-03-24 175911" src="https://github.com/user-attachments/assets/5cdab939-06ba-474f-b699-f7c0ddb77b92" />
-2. Click the link and download the file:
+
+2. Click the link and download the file: </p>
 <img width="505" height="115" alt="Screenshot 2026-03-24 182037" src="https://github.com/user-attachments/assets/3a296c0f-306c-4ff2-9019-6166af69ce3c" />
-3. osTicket-Installation-Files.zip
+
+3. osTicket-Installation-Files.zip </p>
 <img width="1628" height="490" alt="Screenshot 2026-03-24 182149" src="https://github.com/user-attachments/assets/a8a9b00f-4458-426f-9b2a-4c5e428b73b4" />
-4. Save the file to the Desktop by dragging it out of the Downsloads folder.
+
+4. Save the file to the Desktop by dragging it out of the Downsloads folder. </p>
 <img width="1636" height="1024" alt="Screenshot 2026-03-24 182541" src="https://github.com/user-attachments/assets/996cce9d-9c4d-44b8-8fb7-e12073f1a436" />
-5. Right-click the ZIP file.
+
+5. Right-click the ZIP file.</p>
 <img width="584" height="716" alt="Screenshot 2026-03-24 183417" src="https://github.com/user-attachments/assets/695d1373-d252-449b-a575-9c6711d7084e" />
-6. Click Extract All.
+
+6. Click Extract All.</p>
 <img width="1627" height="1023" alt="Screenshot 2026-03-24 182930" src="https://github.com/user-attachments/assets/26625dae-e6a0-43a4-a65a-9748d2f6b116" />
-8. Extract the folder to the Desktop.
-After extraction, the folder should be named:
-osTicket-Installation-Files
+
+7. Extract the folder to the Desktop. </p>
+After extraction, the folder should be named:<br />
+osTicket-Installation-Files</p>
 <img width="1638" height="1034" alt="Screenshot 2026-03-24 183710" src="https://github.com/user-attachments/assets/b2b32945-f7cf-42dd-9354-5c57a1f4731c" />
