@@ -128,3 +128,37 @@ Inside the virtual machine: </p>
 After extraction, the folder should be named:<br />
 osTicket-Installation-Files</p>
 <img width="1638" height="1034" alt="Screenshot 2026-03-24 183710" src="https://github.com/user-attachments/assets/b2b32945-f7cf-42dd-9354-5c57a1f4731c" />
+
+<h2>Step 4 — Install Internet Information Services (IIS) with CGI</h2>
+
+1. Click the Start Menu.
+</p>
+<img width="1017" height="1020" alt="Screenshot 2026-03-24 190538" src="https://github.com/user-attachments/assets/834659bc-2926-4691-b4a6-36e67d3ff081" />
+
+3. Search for:</p>
+Control Panel
+</p>
+<img width="1631" height="1020" alt="Screenshot 2026-03-24 190450" src="https://github.com/user-attachments/assets/bf3e359a-83f0-4478-8caf-24772f8ce713" />
+
+4. Click Programs → Uninstall a program.
+</p>
+<img width="1682" height="955" alt="Screenshot 2026-03-24 191834" src="https://github.com/user-attachments/assets/27a4ebb1-2e3d-4d02-8e8a-0d99bd7afb61" />
+
+5. Turn Windows features on or off.
+</p>
+<img width="307" height="311" alt="Screenshot 2026-03-24 191934" src="https://github.com/user-attachments/assets/e4cb2425-e44d-431f-9c1b-fcacb908cc80" />
+
+6. Enable the following features:</p>
+</p>
+Internet Information Services<br />
+World Wide Web Services<br />
+Application Development Features<br />
+CGI</p>
+<img width="823" height="746" alt="Screenshot 2026-03-24 192933" src="https://github.com/user-attachments/assets/d449eb52-00aa-4b92-bea3-f3175f9a2c5f" />
+
+6. Click OK.
+</p>
+<img width="738" height="189" alt="Screenshot 2026-03-24 193019" src="https://github.com/user-attachments/assets/e678273b-9282-4268-9953-ec1ef1c0ad28" />
+<img width="965" height="870" alt="Screenshot 2026-03-24 193156" src="https://github.com/user-attachments/assets/99603a40-6c50-4d96-a563-784e9b4fed9d" />
+
+Windows will install IIS automatically. </p>
