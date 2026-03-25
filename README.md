@@ -187,3 +187,14 @@ License Agreement → I Agree → Next><br />
 </p>
 <img width="786" height="649" alt="Screenshot 2026-03-24 200255" src="https://github.com/user-attachments/assets/8324d1e7-79b9-49cf-8d22-60874a3f685e" />
 
+<h2>Step 6 — Install the IIS Rewrite Module</h2>
+
+1. In the osTicket-Installation-Files folder, locate:
+rewrite_amd64_en-US.msi
+<img width="1733" height="956" alt="Screenshot 2026-03-24 202829" src="https://github.com/user-attachments/assets/e7642bba-bb66-47ea-8d91-8ed2819259b4" />
+
+2. Double-click the installer.
+
+3. Click Install.
+
+4. Click Finish after installation completes.
