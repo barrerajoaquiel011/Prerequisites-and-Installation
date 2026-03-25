@@ -216,7 +216,8 @@ rewrite_amd64_en-US.msi<br />
 <img width="1171" height="827" alt="Screenshot 2026-03-25 103559" src="https://github.com/user-attachments/assets/725aeef1-0672-47a1-9daf-4582c81bb264" />
 
 3. To create a new folder right click inside the C: drive
-→ New  > →Folder
+
+→ New  > →Folder <br />
 </p>
 <img width="705" height="534" alt="Screenshot 2026-03-25 103717" src="https://github.com/user-attachments/assets/f24ae22b-4064-418a-8fc6-7563d330a124" />
 
@@ -230,7 +231,7 @@ PHP
 <img width="1029" height="517" alt="Screenshot 2026-03-25 104933" src="https://github.com/user-attachments/assets/66bce061-3a4a-4373-985d-ff5082950d96" />
 
 6. Locate the file:
-php-7.3.8-nts-Win32-VC15-x86.zip
+php-7.3.8-nts-Win32-VC15-x86.zip<br />
 </p>
 <img width="940" height="31" alt="Screenshot 2026-03-25 105009" src="https://github.com/user-attachments/assets/e788a98e-a063-4fef-952a-61316777573d" />
 
@@ -243,16 +244,26 @@ php-7.3.8-nts-Win32-VC15-x86.zip
 <img width="227" height="44" alt="Screenshot 2026-03-25 110251" src="https://github.com/user-attachments/assets/9be46932-f185-4448-a23b-4c03d0b7c6d1" />
 
 9. Extract the contents to C:\PHP:
-Browse...  →C: drive →PHP →Select Folder →Extract.
+Browse...  →C: drive →PHP →Select Folder →Extract.<br />
 </p>
 <img width="125" height="54" alt="Screenshot 2026-03-25 105523" src="https://github.com/user-attachments/assets/22f7c5b2-13a1-4e30-9167-6a9436108ef4" />
 
 <h2>Step 8 — Install Microsoft Visual C++ Redistributable</h2>
-In the installation files folder, locate:
-VC_redist.x86.exe
-Double-click the file.
-Click Install.
-Wait for the installation to complete.
+
+1. In the installation files folder, locate:
+ VC_redist.x86.exe<br />
+ </p>
+<img width="238" height="53" alt="Screenshot 2026-03-25 112212" src="https://github.com/user-attachments/assets/48208cfe-271e-4836-9e8e-700216df0ff7" />
+ 
+2. Double-click the file.</p>
+
+3. Agree to the license terms... , and Click Install.
+</p>
+<img width="717" height="455" alt="Screenshot 2026-03-25 112345" src="https://github.com/user-attachments/assets/e7923e85-3144-4247-a8d9-c4a2d0ec92e4" />
+
+4. Wait for the installation to complete.
+</p>
+<img width="717" height="430" alt="Screenshot 2026-03-25 112531" src="https://github.com/user-attachments/assets/d52e8b4b-aa58-4875-890e-4487d709e2b1" />
 
 <h2>Step 9 — Install MySQL Server</h2>
 In the installation files folder, locate:
