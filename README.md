@@ -189,12 +189,61 @@ License Agreement → I Agree → Next><br />
 
 <h2>Step 6 — Install the IIS Rewrite Module</h2>
 
-1. In the osTicket-Installation-Files folder, locate:
-rewrite_amd64_en-US.msi
+1. In the osTicket-Installation-Files folder, locate:<br />
+rewrite_amd64_en-US.msi<br />
+</p>
 <img width="1733" height="956" alt="Screenshot 2026-03-24 202829" src="https://github.com/user-attachments/assets/e7642bba-bb66-47ea-8d91-8ed2819259b4" />
 
 2. Double-click the installer.
+</p>
+<img width="768" height="596" alt="Screenshot 2026-03-24 204926" src="https://github.com/user-attachments/assets/d4b51564-b458-41ec-8976-e4d2f84852b5" />
 
-3. Click Install.
+3. Check the box [✅] Accept the terms in the License Agreement, and click Install.
+</p>
+<img width="773" height="606" alt="Screenshot 2026-03-24 205115" src="https://github.com/user-attachments/assets/0d628007-1b86-4a05-bdd4-1d41d2029e99" />
 
 4. Click Finish after installation completes.
+</p>
+<img width="773" height="604" alt="Screenshot 2026-03-24 205204" src="https://github.com/user-attachments/assets/3cd4885f-c18b-46a8-be43-ca2ebab152fa" />
+
+<h2>Step 7 — Install PHP</h2>
+1. Open File Explorer.
+</p>
+<img width="1834" height="1076" alt="Screenshot 2026-03-25 103414" src="https://github.com/user-attachments/assets/2d834dc6-9f13-46df-89cb-e5cef7e4233d" />
+
+2. Navigate to the C: drive.
+</p>
+<img width="1171" height="827" alt="Screenshot 2026-03-25 103559" src="https://github.com/user-attachments/assets/725aeef1-0672-47a1-9daf-4582c81bb264" />
+
+3. To create a new folder right click inside the C: drive
+→ New  > →Folder
+</p>
+<img width="705" height="534" alt="Screenshot 2026-03-25 103717" src="https://github.com/user-attachments/assets/f24ae22b-4064-418a-8fc6-7563d330a124" />
+
+4. Name the folder:
+PHP
+</p>
+<img width="145" height="41" alt="Screenshot 2026-03-25 103848" src="https://github.com/user-attachments/assets/264de19a-b580-4641-af52-97ea3041a08e" />
+
+5. Open the osTicket-Installation-Files folder.
+</p>
+<img width="1029" height="517" alt="Screenshot 2026-03-25 104933" src="https://github.com/user-attachments/assets/66bce061-3a4a-4373-985d-ff5082950d96" />
+
+6. Locate the file:
+php-7.3.8-nts-Win32-VC15-x86.zip
+</p>
+<img width="940" height="31" alt="Screenshot 2026-03-25 105009" src="https://github.com/user-attachments/assets/e788a98e-a063-4fef-952a-61316777573d" />
+
+7. Right-click the file.
+</p>
+<img width="770" height="622" alt="Screenshot 2026-03-25 105127" src="https://github.com/user-attachments/assets/05e71b3f-48bb-478b-8f41-2c8fd6eb0361" />
+
+8.Click Extract All.
+</p>
+<img width="227" height="44" alt="Screenshot 2026-03-25 110251" src="https://github.com/user-attachments/assets/9be46932-f185-4448-a23b-4c03d0b7c6d1" />
+
+9. Extract the contents to C:\PHP:
+Browse...  →C: drive →PHP →Select Folder →Extract.
+</p>
+<img width="125" height="54" alt="Screenshot 2026-03-25 105523" src="https://github.com/user-attachments/assets/22f7c5b2-13a1-4e30-9167-6a9436108ef4" />
+
