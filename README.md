@@ -247,3 +247,158 @@ Browse...  →C: drive →PHP →Select Folder →Extract.
 </p>
 <img width="125" height="54" alt="Screenshot 2026-03-25 105523" src="https://github.com/user-attachments/assets/22f7c5b2-13a1-4e30-9167-6a9436108ef4" />
 
+<h2>Step 8 — Install Microsoft Visual C++ Redistributable</h2>
+In the installation files folder, locate:
+VC_redist.x86.exe
+Double-click the file.
+Click Install.
+Wait for the installation to complete.
+
+<h2>Step 9 — Install MySQL Server</h2>
+In the installation files folder, locate:
+mysql-5.5.62-win32.msi
+Double-click the installer.
+Select Typical Setup.
+After installation finishes, start the Configuration Wizard.
+Select:
+Standard Configuration
+Configure the database credentials.
+
+Username
+
+root
+
+Password
+
+root
+Complete the configuration.
+
+<h2>Step 10 — Register PHP in IIS</h2>
+Open Internet Information Services (IIS) Manager as Administrator.
+Select the server on the left panel.
+Open PHP Manager.
+Click:
+Register new PHP version
+Browse to:
+C:\PHP\php-cgi.exe
+Click OK.
+
+<h2>Step 11 — Restart IIS</h2>
+In IIS Manager, select the server.
+On the right panel click:
+Stop
+Then click:
+Start
+
+This reloads the web server.
+
+<h2>Step 12 — Install osTicket</h2>
+Open the osTicket-Installation-Files folder.
+Locate the file:
+osTicket-v1.15.8.zip
+Extract the ZIP file.
+Open the extracted folder.
+Copy the folder named:
+upload
+Navigate to:
+C:\inetpub\wwwroot
+Paste the folder there.
+Rename the folder from:
+upload
+
+to
+
+osTicket
+
+<h2>Step 13 — Enable Required PHP Extensions</h2>
+Open IIS Manager.
+Navigate to:
+Sites → Default Web Site → osTicket
+Double-click PHP Manager.
+Click:
+Enable or disable an extension
+Enable the following extensions:
+php_imap.dll
+php_intl.dll
+php_opcache.dll
+Refresh the osTicket webpage.
+
+<h2>Step 14 — Configure osTicket Settings</h2>
+Rename the configuration file:
+
+From
+
+C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+To
+
+C:\inetpub\wwwroot\osTicket\include\ost-config.php
+Right-click the file → Properties → Security.
+Disable Inheritance.
+Remove existing permissions.
+Add a new permission:
+Everyone → Full Control
+
+<h2>Step 15 — Create the osTicket Database</h2>
+Install HeidiSQL from the installation files folder.
+Open HeidiSQL.
+Create a new session with the following credentials:
+
+Username
+
+root
+
+Password
+
+root
+Connect to the session.
+Create a new database named:
+osTicket
+
+<h2>Step 16 — Complete the osTicket Web Installer</h2>
+Open a browser inside the VM.
+Navigate to:
+http://localhost/osTicket
+Click Continue.
+Configure the following:
+
+Helpdesk Name
+
+My Helpdesk
+
+Default Email
+
+admin@helpdesk.com
+
+Database Name
+
+osTicket
+
+Database Username
+
+root
+
+Database Password
+
+root
+Click Install Now.
+
+<h2>Step 17 — Access the osTicket System</h2>
+
+Admin login page
+
+http://localhost/osTicket/scp/login.php
+
+End user support portal
+
+http://localhost/osTicket/
+
+<h2>Step 18 — Cleanup</h2>
+Delete the setup folder:
+C:\inetpub\wwwroot\osTicket\setup
+Change permissions for the configuration file:
+C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+Set permissions to:
+
+Read Only
