@@ -162,3 +162,28 @@ CGI</p>
 <img width="965" height="870" alt="Screenshot 2026-03-24 193156" src="https://github.com/user-attachments/assets/99603a40-6c50-4d96-a563-784e9b4fed9d" />
 
 Windows will install IIS automatically. </p>
+
+<h2>Step 5 — Install PHP Manager for IIS</h2>
+
+1. Open the osTicket-Installation-Files folder.
+</p>
+<img width="1180" height="341" alt="Screenshot 2026-03-24 195450" src="https://github.com/user-attachments/assets/94af70b6-a43f-4668-985d-cc3946d746ac" />
+
+2. Locate the installer: </p>
+PHPManagerForIIS_V1.5.0.msi<br />
+</p>
+<img width="968" height="371" alt="Screenshot 2026-03-24 195724" src="https://github.com/user-attachments/assets/56f130e1-0a15-4aa8-8631-83e9244ebef7" />
+
+3. Double-click the file.
+</p>
+<img width="787" height="646" alt="Screenshot 2026-03-24 200223" src="https://github.com/user-attachments/assets/41eda009-e2a9-4ac3-8d14-656f235f6275" />
+
+4. Follow the installation wizard. </p>
+License Agreement → I Agree → Next><br />
+</p>
+<img width="789" height="637" alt="Screenshot 2026-03-24 200239" src="https://github.com/user-attachments/assets/520b698f-dc3f-4241-89e6-7aee9a2f08da" />
+
+5. Click Close after installation completes.
+</p>
+<img width="786" height="649" alt="Screenshot 2026-03-24 200255" src="https://github.com/user-attachments/assets/8324d1e7-79b9-49cf-8d22-60874a3f685e" />
+
