@@ -304,19 +304,42 @@ root <br />
 
 <h2>Step 10 — Register PHP in IIS</h2>
 
-1. Open Internet Information Services (IIS) Manager as Administrator.
+1. Search IIS in the Start menu, and open Internet Information Services (IIS) Manager as Administrator.
+</p>
+<img width="1753" height="1026" alt="Screenshot 2026-03-29 202701" src="https://github.com/user-attachments/assets/1a6b0064-d309-4105-9829-73debe9de9b3" />
 
 2. Select the server on the left panel.
+</p>
+<img width="653" height="209" alt="Screenshot 2026-03-29 203732" src="https://github.com/user-attachments/assets/28900b10-f3cf-4de1-9a7a-145a67aed5b1" />
 
 3. Open PHP Manager.
+</p>
+<img width="1753" height="1026" alt="Screenshot 2026-03-29 203803" src="https://github.com/user-attachments/assets/021b80d5-7524-4568-af90-98f36ebd64e7" />
 
 4. Click:
-Register new PHP version
+Register new PHP version<br />
+</p>
+<img width="235" height="41" alt="Screenshot 2026-03-29 204028" src="https://github.com/user-attachments/assets/f51a0dfe-d8b1-482d-ad07-8957d21cedbb" />
 
-5. Browse to:
-C:\PHP\php-cgi.exe
+5. Click the three dots.
+</p>
+<img width="762" height="330" alt="Screenshot 2026-03-29 204233" src="https://github.com/user-attachments/assets/30586e59-1667-47e1-83d5-025a0c379834" />
 
-6. Click OK.
+6. In the C Drive open the PHP folder.
+</p>
+<img width="931" height="459" alt="Screenshot 2026-03-29 204302" src="https://github.com/user-attachments/assets/c53c2f84-5ebd-4a10-a60e-d8bed7f4a23f" />
+
+7. Doble click → php-cgi
+</p>
+<img width="930" height="464" alt="Screenshot 2026-03-29 204326" src="https://github.com/user-attachments/assets/f1f5bbbd-8bfd-4ad4-a6f8-95cd8fae1260" />
+
+8. Browse to: <br />
+C:\PHP\php-cgi.exe<br />
+</p>
+<img width="771" height="326" alt="Screenshot 2026-03-29 204340" src="https://github.com/user-attachments/assets/b62c19f6-895f-44b7-a4ce-c6e4d5586bee" />
+
+9. Click OK.
+</p>
 
 <h2>Step 11 — Restart IIS</h2>
 In IIS Manager, select the server.
