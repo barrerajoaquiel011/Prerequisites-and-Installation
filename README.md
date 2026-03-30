@@ -425,6 +425,8 @@ Sites → Default Web Site → osTicket <br />
 <img width="297" height="155" alt="Screenshot 2026-03-30 172609" src="https://github.com/user-attachments/assets/d9ce329e-af29-410d-b191-e38bac1e7abb" />
 
 3. In the right side under Manage Folder click: Browse*:80 (http) to launch the osTicket website.
+</p>
+<img width="244" height="107" alt="Screenshot 2026-03-30 175156" src="https://github.com/user-attachments/assets/5181e724-d115-4823-a7ae-efdfefd99c8e" />
 
 4. Double-click PHP Manager.
 </p>
