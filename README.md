@@ -417,13 +417,16 @@ osTicket <br />
 
 1. Open IIS Manager.
 </p>
+<img width="653" height="522" alt="Screenshot 2026-03-30 171911" src="https://github.com/user-attachments/assets/e5c6b69c-7d42-4d7f-b6be-8311a2aedd09" />
 
 2. Navigate to: <br />
 Sites → Default Web Site → osTicket <br />
 </p>
+<img width="297" height="155" alt="Screenshot 2026-03-30 172609" src="https://github.com/user-attachments/assets/d9ce329e-af29-410d-b191-e38bac1e7abb" />
 
 3. Double-click PHP Manager.
 </p>
+<img width="118" height="109" alt="Screenshot 2026-03-30 173210" src="https://github.com/user-attachments/assets/08e40ac8-e8c8-46f1-8bae-3db1da9ae8bc" />
 
 4. Click: <br />
 Enable or disable an extension <br />
