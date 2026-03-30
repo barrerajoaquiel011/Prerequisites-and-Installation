@@ -342,13 +342,23 @@ C:\PHP\php-cgi.exe<br />
 </p>
 
 <h2>Step 11 — Restart IIS</h2>
-In IIS Manager, select the server.
-On the right panel click:
+
+1. In IIS Manager, select the server.
+</p>
+<img width="430" height="273" alt="Screenshot 2026-03-29 210022" src="https://github.com/user-attachments/assets/99f757c9-3f19-47f2-9994-2139b0a8fb51" />
+
+2. On the right panel click:
 Stop
-Then click:
+</p>
+<img width="297" height="239" alt="Screenshot 2026-03-29 210051" src="https://github.com/user-attachments/assets/5a259e6b-95b9-42e7-b49c-dedb935affbc" />
+
+3. Then click:
 Start
+</p>
+<img width="294" height="241" alt="Screenshot 2026-03-29 210109" src="https://github.com/user-attachments/assets/a42526c4-6b64-4871-a155-ebcf2bbf63cd" />
 
 This reloads the web server.
+</p>
 
 <h2>Step 12 — Install osTicket</h2>
 Open the osTicket-Installation-Files folder.
