@@ -363,130 +363,154 @@ This reloads the web server.
 <h2>Step 12 — Install osTicket</h2>
 
 1. Open the osTicket-Installation-Files folder.
+</p>
 
-2. Locate the file:
-osTicket-v1.15.8.zip
+2. Locate the file:<br />
+osTicket-v1.15.8.zip<br />
+</p>
 
 3. Extract the ZIP file.
+</p>
 
 4. Open the extracted folder.
-5. Copy the folder named:
-upload
+</p>
 
-6. Navigate to:
-C:\inetpub\wwwroot
+5. Copy the folder named:<br />
+upload<br />
+</p>
+
+6. Navigate to:<br />
+C:\inetpub\wwwroot <br />
+</p>
 
 7. Paste the folder there.
-8. Rename the folder from:
-upload
+</p>
 
-to
-
-osTicket
+8. Rename the folder from:<br />
+upload<br />
+</p>
+to:<br />
+osTicket<br />
+</p>
 
 <h2>Step 13 — Enable Required PHP Extensions</h2>
 
 1. Open IIS Manager.
+</p>
 
-2. Navigate to:
-Sites → Default Web Site → osTicket
+2. Navigate to: <br />
+Sites → Default Web Site → osTicket <br />
+</p>
 
 3. Double-click PHP Manager.
+</p>
 
-4. Click:
-Enable or disable an extension
+4. Click: <br />
+Enable or disable an extension <br />
+</p>
 
-5. Enable the following extensions:
-php_imap.dll
-php_intl.dll
-php_opcache.dll
+5. Enable the following extensions: <br />
+php_imap.dll <br />
+php_intl.dll <br />
+php_opcache.dll <br />
+</p>
 
 6. Refresh the osTicket webpage.
+</p>
 
 <h2>Step 14 — Configure osTicket Settings</h2>
 
-1. Rename the configuration file:
-From:
-C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-
-To:
-C:\inetpub\wwwroot\osTicket\include\ost-config.php
+1. Rename the configuration file: <br />
+From: <br />
+C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php <br />
+</p>
+To: <br />
+C:\inetpub\wwwroot\osTicket\include\ost-config.php <br />
+</p>
 
 2. Right-click the file → Properties → Security.
+</p>
 
 3. Disable Inheritance.
+</p>
 
 4. Remove existing permissions.
+</p>
 
-5. Add a new permission:
-Everyone → Full Control
+5. Add a new permission: <br />
+Everyone → Full Control <br />
+</p>
 
 <h2>Step 15 — Create the osTicket Database</h2>
 
 1. Install HeidiSQL from the installation files folder.
+</p>
 
 2. Open HeidiSQL.
+</p>
 
-3. Create a new session with the following credentials:
-
-Username:
-root
-
-Password:
-root
+3. Create a new session with the following credentials: <br />
+Username: <br />
+root <br />
+</p>
+Password: <br />
+root <br />
+</p>
 
 4. Connect to the session.
+</p>
 
-5. Create a new database named:
-osTicket
+5. Create a new database named: <br />
+osTicket <br />
+</p>
 
 <h2>Step 16 — Complete the osTicket Web Installer</h2>
 
 1. Open a browser inside the VM.
+</p>
 
-2. Navigate to:
-http://localhost/osTicket
+2. Navigate to: <br />
+http://localhost/osTicket <br />
+</p>
 
 3. Click Continue.
-Configure the following:
+</p>
 
-Helpdesk Name
+4. Configure the following: <br />
 
-My Helpdesk
+Helpdesk Name: → My Helpdesk <br />
 
-Default Email
+Default Email: → admin@helpdesk.com <br />
 
-admin@helpdesk.com
+Database Name: → osTicket <br />
 
-Database Name
+Database Username: → root <br />
 
-osTicket
+Database Password: → root <br />
+</p>
 
-Database Username
-
-root
-
-Database Password
-
-root
-Click Install Now.
+5. Click Install Now.
+</p>
 
 <h2>Step 17 — Access the osTicket System</h2>
 
-Admin login page
-
-http://localhost/osTicket/scp/login.php
-
-End user support portal
-
-http://localhost/osTicket/
+Admin login page: <br />
+http://localhost/osTicket/scp/login.php <br />
+</p>
+End user support portal: <br />
+http://localhost/osTicket/ <br />
+</p>
 
 <h2>Step 18 — Cleanup</h2>
-Delete the setup folder:
-C:\inetpub\wwwroot\osTicket\setup
-Change permissions for the configuration file:
-C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-Set permissions to:
+1. Delete the setup folder: <br />
+C:\inetpub\wwwroot\osTicket\setup <br />
+</p>
 
-Read Only
+2. Change permissions for the configuration file: <br />
+C:\inetpub\wwwroot\osTicket\include\ost-config.php <br />
+</p>
+
+Set permissions to: <br />
+Read Only <br />
+</p>
