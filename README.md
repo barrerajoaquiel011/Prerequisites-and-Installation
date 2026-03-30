@@ -266,23 +266,42 @@ Browse...  →C: drive →PHP →Select Folder →Extract.<br />
 <img width="717" height="430" alt="Screenshot 2026-03-25 112531" src="https://github.com/user-attachments/assets/d52e8b4b-aa58-4875-890e-4487d709e2b1" />
 
 <h2>Step 9 — Install MySQL Server</h2>
-In the installation files folder, locate:
-mysql-5.5.62-win32.msi
-Double-click the installer.
-Select Typical Setup.
-After installation finishes, start the Configuration Wizard.
-Select:
-Standard Configuration
-Configure the database credentials.
 
-Username
+1. In the installation files folder, locate:
+mysql-5.5.62-win32.msi<br />
+</p>
+<img width="1040" height="420" alt="Screenshot 2026-03-29 193901" src="https://github.com/user-attachments/assets/9f10161a-c884-4c58-a570-82da9be8eb76" />
 
-root
+2.Double-click the installer.
+</p>
+<img width="768" height="601" alt="Screenshot 2026-03-29 193954" src="https://github.com/user-attachments/assets/a7aa58e2-6d57-4b56-95d1-6961d05075da" />
 
-Password
+3.Select Typical Setup. 
+</p>
+<img width="454" height="359" alt="Screenshot 2026-03-29 195633" src="https://github.com/user-attachments/assets/278a02ab-2ee2-43af-8ae0-6260a6193d76" />
 
-root
-Complete the configuration.
+4. After installation finishes, start the Configuration Wizard.
+</p>
+<img width="749" height="563" alt="Screenshot 2026-03-29 194226" src="https://github.com/user-attachments/assets/a9daec72-cbab-433e-a796-317eaf62f559" />
+
+5. Select:
+Standard Configuration<br />
+</p>
+<img width="753" height="571" alt="Screenshot 2026-03-29 194303" src="https://github.com/user-attachments/assets/82bf95a8-20c9-4556-a4ff-424d058ecd05" />
+
+6. Configure the database credentials.
+
+Username:<br />
+root<br />
+Password:<br />
+root <br />
+</p>
+<img width="456" height="345" alt="Screenshot 2026-03-29 200654" src="https://github.com/user-attachments/assets/e01ced1b-4997-4613-b4ca-6549c57828e5" />
+
+7. Complete the configuration.
+</p>
+<img width="744" height="571" alt="Screenshot 2026-03-29 195024" src="https://github.com/user-attachments/assets/19e209d5-38ca-45ce-8957-6e16c77f75e8" />
+
 
 <h2>Step 10 — Register PHP in IIS</h2>
 Open Internet Information Services (IIS) Manager as Administrator.
