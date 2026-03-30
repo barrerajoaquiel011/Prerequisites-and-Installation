@@ -424,16 +424,19 @@ Sites → Default Web Site → osTicket <br />
 </p>
 <img width="297" height="155" alt="Screenshot 2026-03-30 172609" src="https://github.com/user-attachments/assets/d9ce329e-af29-410d-b191-e38bac1e7abb" />
 
-3. Double-click PHP Manager.
+3. In the right side under Manage Folder click: Browse*:80 (http) to launch the osTicket website.
+
+4. Double-click PHP Manager.
 </p>
 <img width="118" height="109" alt="Screenshot 2026-03-30 173210" src="https://github.com/user-attachments/assets/08e40ac8-e8c8-46f1-8bae-3db1da9ae8bc" />
 
-4. Under PHP Extensions click: <br />
+5. Under PHP Extensions click: <br />
+
 Enable or disable an extension <br />
 </p>
 <img width="483" height="194" alt="Screenshot 2026-03-30 173513" src="https://github.com/user-attachments/assets/777b8ec0-e05a-46b9-b967-0795c11d5ac8" />
 
-5. Look for and enable the following extensions: <br />
+6. Look for and enable the following extensions: <br />
 
 php_imap.dll <br />
 <img width="396" height="88" alt="Screenshot 2026-03-30 174305" src="https://github.com/user-attachments/assets/8c331d22-b20a-4cb0-9904-3aa9089ec111" />
@@ -443,7 +446,7 @@ php_opcache.dll <br />
 <img width="408" height="87" alt="Screenshot 2026-03-30 174428" src="https://github.com/user-attachments/assets/92248841-279a-4b44-9ae2-7b575d637390" />
 </p>
 
-6. Refresh the osTicket webpage.
+7. Refresh the osTicket webpage.
 </p>
 
 <h2>Step 14 — Configure osTicket Settings</h2>
