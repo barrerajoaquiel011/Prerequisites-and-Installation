@@ -428,7 +428,7 @@ Sites → Default Web Site → osTicket <br />
 </p>
 <img width="244" height="107" alt="Screenshot 2026-03-30 175156" src="https://github.com/user-attachments/assets/5181e724-d115-4823-a7ae-efdfefd99c8e" />
 
-4. Double-click PHP Manager.
+4. Go back to IIS and Double-click PHP Manager.
 </p>
 <img width="118" height="109" alt="Screenshot 2026-03-30 173210" src="https://github.com/user-attachments/assets/08e40ac8-e8c8-46f1-8bae-3db1da9ae8bc" />
 
@@ -450,6 +450,7 @@ php_opcache.dll <br />
 
 7. Refresh the osTicket webpage.
 </p>
+<img width="1747" height="1043" alt="Screenshot 2026-03-30 180417" src="https://github.com/user-attachments/assets/fe81fe64-77c3-4adf-8302-1a4aaa945003" />
 
 <h2>Step 14 — Configure osTicket Settings</h2>
 
