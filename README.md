@@ -302,16 +302,21 @@ root <br />
 </p>
 <img width="744" height="571" alt="Screenshot 2026-03-29 195024" src="https://github.com/user-attachments/assets/19e209d5-38ca-45ce-8957-6e16c77f75e8" />
 
-
 <h2>Step 10 — Register PHP in IIS</h2>
-Open Internet Information Services (IIS) Manager as Administrator.
-Select the server on the left panel.
-Open PHP Manager.
-Click:
+
+1. Open Internet Information Services (IIS) Manager as Administrator.
+
+2. Select the server on the left panel.
+
+3. Open PHP Manager.
+
+4. Click:
 Register new PHP version
-Browse to:
+
+5. Browse to:
 C:\PHP\php-cgi.exe
-Click OK.
+
+6. Click OK.
 
 <h2>Step 11 — Restart IIS</h2>
 In IIS Manager, select the server.
