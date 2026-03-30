@@ -428,9 +428,10 @@ Sites → Default Web Site → osTicket <br />
 </p>
 <img width="118" height="109" alt="Screenshot 2026-03-30 173210" src="https://github.com/user-attachments/assets/08e40ac8-e8c8-46f1-8bae-3db1da9ae8bc" />
 
-4. Click: <br />
+4. Under PHP Extensions click: <br />
 Enable or disable an extension <br />
 </p>
+<img width="483" height="194" alt="Screenshot 2026-03-30 173513" src="https://github.com/user-attachments/assets/777b8ec0-e05a-46b9-b967-0795c11d5ac8" />
 
 5. Enable the following extensions: <br />
 php_imap.dll <br />
