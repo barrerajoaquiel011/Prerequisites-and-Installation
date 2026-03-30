@@ -364,34 +364,54 @@ This reloads the web server.
 
 1. Open the osTicket-Installation-Files folder.
 </p>
+<img width="114" height="127" alt="Screenshot 2026-03-30 011751" src="https://github.com/user-attachments/assets/d72bb74c-7890-4110-9d40-93c3f17ef028" />
 
 2. Locate the file:<br />
 osTicket-v1.15.8.zip<br />
 </p>
+<img width="937" height="386" alt="Screenshot 2026-03-30 011641" src="https://github.com/user-attachments/assets/540e5353-4e49-4e2f-8aa8-b4d9a176206a" />
 
 3. Extract the ZIP file.
 </p>
+Right click the file, them click Extract All...
+<img width="432" height="319" alt="Screenshot 2026-03-30 013956" src="https://github.com/user-attachments/assets/b8ab4f2b-3f84-4879-8b76-ed6e519ceb7d" />
+Browse to the default file displayed → and click Extract.
+<img width="534" height="418" alt="Screenshot 2026-03-30 013520" src="https://github.com/user-attachments/assets/13b39571-cd48-4fa9-af4d-5f06de3090a0" />
+
 
 4. Open the extracted folder.
 </p>
+<img width="218" height="46" alt="Screenshot 2026-03-30 012446" src="https://github.com/user-attachments/assets/b0310952-eef0-4b1b-96c6-f9dcc1ca8667" />
 
 5. Copy the folder named:<br />
 upload<br />
 </p>
+<img width="187" height="94" alt="Screenshot 2026-03-30 012511" src="https://github.com/user-attachments/assets/2b3f780d-193b-47b8-99ac-a7bf033c1513" />
 
 6. Navigate to:<br />
 C:\inetpub\wwwroot <br />
 </p>
+Right click the File Explorer icon on the taskbar (the yellow folder icon shown in the screenshot).  <br />
+<img width="430" height="197" alt="Screenshot 2026-03-30 012707" src="https://github.com/user-attachments/assets/b0eee302-7a88-425f-809a-1fac2cc60dd2" />
+Double-click on the Local Disk (C:) drive.  <br />
+<img width="213" height="36" alt="Screenshot 2026-03-30 012826" src="https://github.com/user-attachments/assets/3fd7134e-d756-4523-a05d-0b016b55df5c" />
+Double-click the inetpub folder  <br />
+<img width="114" height="37" alt="Screenshot 2026-03-30 012834" src="https://github.com/user-attachments/assets/0b381699-0807-4f4f-a0da-ebe7c2296047" />
+Inside the inetpub folder double-click wwwroot  <br />
+<img width="127" height="34" alt="Screenshot 2026-03-30 012853" src="https://github.com/user-attachments/assets/aabc036e-102e-4ab9-a2ad-16229d7abf17" />
 
 7. Paste the folder there.
 </p>
+<img width="1732" height="1001" alt="Screenshot 2026-03-30 013033" src="https://github.com/user-attachments/assets/330d8a27-5a88-4baa-b28a-6d35b9d7548f" />
 
-8. Rename the folder from:<br />
-upload<br />
+8. Rename the folder from: upload<br />
+to: osTicket<br />
 </p>
-to:<br />
-osTicket<br />
+Right click on the upload folder → click Rename <br />
+Type the new name: <br />
+osTicket <br />
 </p>
+<img width="189" height="43" alt="Screenshot 2026-03-30 013211" src="https://github.com/user-attachments/assets/69cea62e-b561-4389-b742-297a3075a571" />
 
 <h2>Step 13 — Enable Required PHP Extensions</h2>
 
