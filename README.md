@@ -433,10 +433,14 @@ Enable or disable an extension <br />
 </p>
 <img width="483" height="194" alt="Screenshot 2026-03-30 173513" src="https://github.com/user-attachments/assets/777b8ec0-e05a-46b9-b967-0795c11d5ac8" />
 
-5. Enable the following extensions: <br />
+5. Look for and enable the following extensions: <br />
+
 php_imap.dll <br />
+<img width="396" height="88" alt="Screenshot 2026-03-30 174305" src="https://github.com/user-attachments/assets/8c331d22-b20a-4cb0-9904-3aa9089ec111" />
 php_intl.dll <br />
+<img width="383" height="84" alt="Screenshot 2026-03-30 174342" src="https://github.com/user-attachments/assets/4a4be94c-c8ea-498c-9e0d-f9da23778775" />
 php_opcache.dll <br />
+<img width="408" height="87" alt="Screenshot 2026-03-30 174428" src="https://github.com/user-attachments/assets/92248841-279a-4b44-9ae2-7b575d637390" />
 </p>
 
 6. Refresh the osTicket webpage.
