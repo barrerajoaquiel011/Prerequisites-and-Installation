@@ -517,28 +517,43 @@ php_opcache.dll <br />
 <img width="1102" height="476" alt="Screenshot 2026-03-30 195930" src="https://github.com/user-attachments/assets/8f9f9af7-bb9f-4de3-8a0c-7ab19c610547" />
 </p> 
 
-<h2>Step 15 — Create the osTicket Database</h2>
+<h2>Step 15 — Create the osTicket Database</h2> 
 
 1. Install HeidiSQL from the installation files folder.
 </p>
+<img width="384" height="152" alt="Screenshot 2026-03-30 203224" src="https://github.com/user-attachments/assets/29da3af3-8f5a-4099-95c7-16cef9104fae" />
 
-2. Open HeidiSQL.
+2. Click I accept the agreement → Next → Next → Next → Next → Install
+<img width="890" height="289" alt="Screenshot 2026-03-30 204213" src="https://github.com/user-attachments/assets/24a84b0d-ce49-4443-a7ab-a0582462f40e" />
+→ Finnish
+<img width="881" height="664" alt="Screenshot 2026-03-30 204225" src="https://github.com/user-attachments/assets/6a48dad8-72f9-41b8-9384-43589575e1c3" />
+
+3. Open HeidiSQL, and click New
 </p>
+<img width="117" height="55" alt="Screenshot 2026-03-30 204526" src="https://github.com/user-attachments/assets/7c79b48f-858a-46b8-9bc3-bbdb5ebf536a" />
 
-3. Create a new session with the following credentials: <br />
+4. Create a new session with the following credentials: <br />
 Username: <br />
 root <br />
 </p>
 Password: <br />
 root <br />
 </p>
+<img width="671" height="672" alt="Screenshot 2026-03-30 204643" src="https://github.com/user-attachments/assets/9d4d9ea2-cf33-48e3-8fe7-434acb2d40a4" />
 
 4. Connect to the session.
 </p>
+<img width="1458" height="765" alt="Screenshot 2026-03-30 204742" src="https://github.com/user-attachments/assets/af09b217-4655-4433-92cb-a5edf9567211" />
 
-5. Create a new database named: <br />
-osTicket <br />
+5. Create a new database named osTicket: <br />
+Right click → Unnamed → Create new → Database <br />
 </p>
+<img width="735" height="273" alt="Screenshot 2026-03-30 204838" src="https://github.com/user-attachments/assets/e6118373-74ae-4a70-bbd1-af13475a77fb" />
+
+Name it: osTicket → them click ok
+</p>
+<img width="472" height="299" alt="Screenshot 2026-03-30 205226" src="https://github.com/user-attachments/assets/8017310f-8938-496c-b370-53faa9d4ad31" />
+<img width="518" height="349" alt="Screenshot 2026-03-30 205243" src="https://github.com/user-attachments/assets/d24116f9-af4e-4f1d-b18d-a3f397a05e37" />
 
 <h2>Step 16 — Complete the osTicket Web Installer</h2>
 
