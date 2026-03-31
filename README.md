@@ -566,6 +566,7 @@ Right click → Unnamed → Create new → Database <br />
 System Settings <br />
 Admin User <br />
 <img width="674" height="781" alt="Screenshot 2026-03-30 202006" src="https://github.com/user-attachments/assets/37c4cb14-7f59-4386-9b09-d3069c735f36" />
+</p>
 Database Settings <br />
 <img width="516" height="422" alt="Screenshot 2026-03-30 211705" src="https://github.com/user-attachments/assets/cef75006-6916-40d3-bf79-1ebb97c7c492" />
 
@@ -580,22 +581,13 @@ Database Settings <br />
 <h2>Step 17 — Access the osTicket System</h2>
 
 Admin login page: <br />
-
+http://localhost/osTicket/scp/login.php
 </p>
+<img width="1750" height="1020" alt="Screenshot 2026-03-30 215608" src="https://github.com/user-attachments/assets/a3dcacba-e333-4fe3-b64f-be703da61a04" />
+<img width="1756" height="1023" alt="Screenshot 2026-03-30 215631" src="https://github.com/user-attachments/assets/8870d7c1-2a34-475a-b153-f50471fdd9f0" />
+
 End user support portal: <br />
 http://localhost/osTicket/ <br />
 </p>
-
-<h2>Step 18 — Cleanup</h2>
-
-1. Delete the setup folder: <br />
-C:\inetpub\wwwroot\osTicket\setup <br />
-</p>
-
-2. Change permissions for the configuration file: <br />
-C:\inetpub\wwwroot\osTicket\include\ost-config.php <br />
-</p>
-
-Set permissions to: <br />
-Read Only <br />
+<img width="1757" height="1024" alt="Screenshot 2026-03-30 215250" src="https://github.com/user-attachments/assets/f81701e6-f1da-45c5-9fd2-2b903a2743e9" />
 </p>
