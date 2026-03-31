@@ -580,13 +580,13 @@ Database Settings <br />
 
 <h2>Step 17 — Access the osTicket System</h2>
 
-Admin login page: <br />
+<h2>Admin login page:</h2>
 http://localhost/osTicket/scp/login.php
 </p>
 <img width="1750" height="1020" alt="Screenshot 2026-03-30 215608" src="https://github.com/user-attachments/assets/a3dcacba-e333-4fe3-b64f-be703da61a04" />
 <img width="1756" height="1023" alt="Screenshot 2026-03-30 215631" src="https://github.com/user-attachments/assets/8870d7c1-2a34-475a-b153-f50471fdd9f0" />
 
-End user support portal: <br />
+<h2>End user support portal:</h2>
 http://localhost/osTicket/ <br />
 </p>
 <img width="1757" height="1024" alt="Screenshot 2026-03-30 215250" src="https://github.com/user-attachments/assets/f81701e6-f1da-45c5-9fd2-2b903a2743e9" />
