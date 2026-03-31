@@ -415,7 +415,7 @@ osTicket <br />
 
 <h2>Step 13 — Enable Required PHP Extensions</h2>
 
-1. Open IIS Manager.
+1. Open IIS Manager.  <br />
 </p>
 <img width="653" height="522" alt="Screenshot 2026-03-30 171911" src="https://github.com/user-attachments/assets/e5c6b69c-7d42-4d7f-b6be-8311a2aedd09" />
 
@@ -424,11 +424,11 @@ Sites → Default Web Site → osTicket <br />
 </p>
 <img width="297" height="155" alt="Screenshot 2026-03-30 172609" src="https://github.com/user-attachments/assets/d9ce329e-af29-410d-b191-e38bac1e7abb" />
 
-3. In the right side under Manage Folder click: Browse*:80 (http) to launch the osTicket website.
+3. In the right side under Manage Folder click: Browse*:80 (http) to launch the osTicket website. <br />
 </p>
 <img width="244" height="107" alt="Screenshot 2026-03-30 175156" src="https://github.com/user-attachments/assets/5181e724-d115-4823-a7ae-efdfefd99c8e" />
 
-4. Go back to IIS and Double-click PHP Manager.
+4. Go back to IIS and Double-click PHP Manager. <br />
 </p>
 <img width="118" height="109" alt="Screenshot 2026-03-30 173210" src="https://github.com/user-attachments/assets/08e40ac8-e8c8-46f1-8bae-3db1da9ae8bc" />
 
@@ -442,38 +442,80 @@ Enable or disable an extension <br />
 
 php_imap.dll <br />
 <img width="396" height="88" alt="Screenshot 2026-03-30 174305" src="https://github.com/user-attachments/assets/8c331d22-b20a-4cb0-9904-3aa9089ec111" />
+</p>
 php_intl.dll <br />
 <img width="383" height="84" alt="Screenshot 2026-03-30 174342" src="https://github.com/user-attachments/assets/4a4be94c-c8ea-498c-9e0d-f9da23778775" />
+</p>
 php_opcache.dll <br />
 <img width="408" height="87" alt="Screenshot 2026-03-30 174428" src="https://github.com/user-attachments/assets/92248841-279a-4b44-9ae2-7b575d637390" />
 </p>
 
-7. Refresh the osTicket webpage.
+7. Refresh the osTicket webpage.  <br />
 </p>
 <img width="1747" height="1043" alt="Screenshot 2026-03-30 180417" src="https://github.com/user-attachments/assets/fe81fe64-77c3-4adf-8302-1a4aaa945003" />
 
 <h2>Step 14 — Configure osTicket Settings</h2>
 
 1. Rename the configuration file: <br />
-From: <br />
-C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php <br />
+
+→ Open File Explorer <br />
+<img width="194" height="51" alt="Screenshot 2026-03-30 182925" src="https://github.com/user-attachments/assets/83e56cd7-45c7-4791-b5e0-82d5f16032c8" />
 </p>
-To: <br />
-C:\inetpub\wwwroot\osTicket\include\ost-config.php <br />
+→ In the address bar at the top, paste or browse to: C:\inetpub\wwwroot\ <br />
+<img width="796" height="278" alt="Screenshot 2026-03-30 183014" src="https://github.com/user-attachments/assets/fdfca676-2a4d-46e7-a1d5-f827c03868de" />
+</p>
+→ Double-click the osTicket folder <br />
+<img width="159" height="38" alt="Screenshot 2026-03-30 183124" src="https://github.com/user-attachments/assets/8f154822-2323-408a-a72a-37227cb6e7a6" />
+</p>
+→ Open the folder name: Include <br />
+<img width="149" height="33" alt="Screenshot 2026-03-30 183221" src="https://github.com/user-attachments/assets/303b1b39-9e29-4c59-9fab-818dd53b24c5" />
+</p>
+→ Locate the configuration file named: ost-sampleconfig.php <br />
+<img width="229" height="37" alt="Screenshot 2026-03-30 183402" src="https://github.com/user-attachments/assets/d31672a8-5650-4113-bf29-9f9075199b3d" />
+</p>
+→ Right-click on ost-sampleconfig.php and click rename <br />
+<img width="418" height="43" alt="Screenshot 2026-03-30 191742" src="https://github.com/user-attachments/assets/691417df-3448-45e1-98ce-79db82b3673e" />
+</p>
+→ Change the name to: ost-config.php <br />
+<img width="213" height="33" alt="Screenshot 2026-03-30 192014" src="https://github.com/user-attachments/assets/b0b5c495-f6ad-4905-a2de-e56f0328cc87" />
 </p>
 
-2. Right-click the file → Properties → Security.
+2. Right-click the file
+</p>
+→ Properties <br />
+</p>
+<img width="246" height="46" alt="Screenshot 2026-03-30 193230" src="https://github.com/user-attachments/assets/84c66e4a-f067-4a83-b128-0f5854b0a8ad" />
+→ Security <br />
+<img width="293" height="103" alt="Screenshot 2026-03-30 193536" src="https://github.com/user-attachments/assets/5dc5a830-b9f8-4672-82b5-4da5e9a7c010" />
+</p>
+→ Advanced <br />
+<img width="281" height="174" alt="Screenshot 2026-03-30 193654" src="https://github.com/user-attachments/assets/9149c8d9-be42-49e7-aa6d-d039304a7d98" />
 </p>
 
 3. Disable Inheritance.
 </p>
+<img width="376" height="149" alt="Screenshot 2026-03-30 194332" src="https://github.com/user-attachments/assets/c6cf19c1-a238-4b49-bd8f-1ce326575fa7" />
 
 4. Remove existing permissions.
 </p>
+<img width="793" height="379" alt="Screenshot 2026-03-30 194541" src="https://github.com/user-attachments/assets/6d5be81d-931d-4b58-91a5-bd5e845d630f" />
 
-5. Add a new permission: <br />
-Everyone → Full Control <br />
+5. Add a new permission:
+→ Click add <br />
+<img width="127" height="43" alt="Screenshot 2026-03-30 194627" src="https://github.com/user-attachments/assets/b5ae57c4-e9f5-4009-bd2f-e43b7f7ffdb4" />
 </p>
+→ Select a principal <br />
+<img width="176" height="46" alt="Screenshot 2026-03-30 194650" src="https://github.com/user-attachments/assets/f04fc3bd-e053-4637-8036-45cc17787640" />
+</p>
+→ Everyone → Check Names → Ok <br />
+<img width="676" height="164" alt="Screenshot 2026-03-30 195326" src="https://github.com/user-attachments/assets/53c7f689-818d-4886-9118-a4b9f5d4f9c9" />
+</p>
+→ Full Control <br />
+<img width="326" height="233" alt="Screenshot 2026-03-30 195507" src="https://github.com/user-attachments/assets/dd51025e-64c8-4363-9922-4c660e9ccbd8" />
+</p> 
+→ Apply → Ok <br />
+<img width="1102" height="476" alt="Screenshot 2026-03-30 195930" src="https://github.com/user-attachments/assets/8f9f9af7-bb9f-4de3-8a0c-7ab19c610547" />
+</p> 
 
 <h2>Step 15 — Create the osTicket Database</h2>
 
