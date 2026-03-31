@@ -533,15 +533,15 @@ php_opcache.dll <br />
 <img width="117" height="55" alt="Screenshot 2026-03-30 204526" src="https://github.com/user-attachments/assets/7c79b48f-858a-46b8-9bc3-bbdb5ebf536a" />
 
 4. Create a new session with the following credentials: <br />
-Username: <br />
-root <br />
+ Username: <br />
+ root <br />
 </p>
-Password: <br />
-root <br />
+ Password: <br />
+ root <br />
 </p>
 <img width="671" height="672" alt="Screenshot 2026-03-30 204643" src="https://github.com/user-attachments/assets/9d4d9ea2-cf33-48e3-8fe7-434acb2d40a4" />
 
-4. Connect to the session.
+5. Connect to the session.
 </p>
 <img width="1458" height="765" alt="Screenshot 2026-03-30 204742" src="https://github.com/user-attachments/assets/af09b217-4655-4433-92cb-a5edf9567211" />
 
@@ -550,43 +550,37 @@ Right click → Unnamed → Create new → Database <br />
 </p>
 <img width="735" height="273" alt="Screenshot 2026-03-30 204838" src="https://github.com/user-attachments/assets/e6118373-74ae-4a70-bbd1-af13475a77fb" />
 
-Name it: osTicket → them click ok
+6. Name it: osTicket → them click ok <br />
 </p>
 <img width="472" height="299" alt="Screenshot 2026-03-30 205226" src="https://github.com/user-attachments/assets/8017310f-8938-496c-b370-53faa9d4ad31" />
 <img width="518" height="349" alt="Screenshot 2026-03-30 205243" src="https://github.com/user-attachments/assets/d24116f9-af4e-4f1d-b18d-a3f397a05e37" />
 
 <h2>Step 16 — Complete the osTicket Web Installer</h2>
 
-1. Open a browser inside the VM.
+1. Back in the osTicket website → Click Continue.
 </p>
+<img width="921" height="801" alt="Screenshot 2026-03-30 201219" src="https://github.com/user-attachments/assets/91aa4371-dae0-4b45-801f-f5106ffcb56b" />
 
-2. Navigate to: <br />
-http://localhost/osTicket <br />
+2. Configure the following:
 </p>
+System Settings <br />
+Admin User <br />
+<img width="674" height="781" alt="Screenshot 2026-03-30 202006" src="https://github.com/user-attachments/assets/37c4cb14-7f59-4386-9b09-d3069c735f36" />
+Database Settings <br />
+<img width="516" height="422" alt="Screenshot 2026-03-30 211705" src="https://github.com/user-attachments/assets/cef75006-6916-40d3-bf79-1ebb97c7c492" />
 
-3. Click Continue.
+3. Click Install Now.
 </p>
+<img width="923" height="722" alt="Screenshot 2026-03-30 213958" src="https://github.com/user-attachments/assets/5fe91cb2-9a84-41ab-a33f-9ebd75adfb2d" />
 
-4. Configure the following: <br />
-
-Helpdesk Name: → My Helpdesk <br />
-
-Default Email: → admin@helpdesk.com <br />
-
-Database Name: → osTicket <br />
-
-Database Username: → root <br />
-
-Database Password: → root <br />
-</p>
-
-5. Click Install Now.
-</p>
+4. Refresh the osTicket database
+→ right click it, them press refresh <br />
+<img width="947" height="790" alt="Screenshot 2026-03-30 214149" src="https://github.com/user-attachments/assets/30b601cc-0dfb-4f94-ab7e-5c7d92cb150c" />
 
 <h2>Step 17 — Access the osTicket System</h2>
 
 Admin login page: <br />
-http://localhost/osTicket/scp/login.php <br />
+
 </p>
 End user support portal: <br />
 http://localhost/osTicket/ <br />
